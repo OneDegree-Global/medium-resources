@@ -1,0 +1,56 @@
+Dump of assembler code for function main:
+   0x0000000000400b1e <+0>:	push   rbp
+   0x0000000000400b1f <+1>:	mov    rbp,rsp
+   0x0000000000400b22 <+4>:	sub    rsp,0x20
+   0x0000000000400b26 <+8>:	mov    DWORD PTR [rbp-0xc],0x0
+   0x0000000000400b2d <+15>:	mov    DWORD PTR [rbp-0x10],0x0
+   0x0000000000400b34 <+22>:	mov    DWORD PTR [rbp-0x14],0x0
+   0x0000000000400b3b <+29>:	mov    esi,0x400cd0
+   0x0000000000400b40 <+34>:	mov    edi,0x6021a0
+   0x0000000000400b45 <+39>:	call   0x400830 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+   0x0000000000400b4a <+44>:	lea    rax,[rbp-0xc]
+   0x0000000000400b4e <+48>:	mov    rsi,rax
+   0x0000000000400b51 <+51>:	mov    edi,0x602080
+   0x0000000000400b56 <+56>:	call   0x400850 <_ZNSirsERi@plt>
+   0x0000000000400b5b <+61>:	lea    rdx,[rbp-0x10]
+   0x0000000000400b5f <+65>:	mov    rsi,rdx
+   0x0000000000400b62 <+68>:	mov    rdi,rax
+   0x0000000000400b65 <+71>:	call   0x400850 <_ZNSirsERi@plt>
+   0x0000000000400b6a <+76>:	lea    rdx,[rbp-0x14]
+   0x0000000000400b6e <+80>:	mov    rsi,rdx
+   0x0000000000400b71 <+83>:	mov    rdi,rax
+   0x0000000000400b74 <+86>:	call   0x400850 <_ZNSirsERi@plt>
+   0x0000000000400b79 <+91>:	mov    edx,DWORD PTR [rbp-0xc]
+   0x0000000000400b7c <+94>:	mov    eax,DWORD PTR [rbp-0x10]
+   0x0000000000400b7f <+97>:	add    edx,eax
+   0x0000000000400b81 <+99>:	mov    eax,DWORD PTR [rbp-0x14]
+   0x0000000000400b84 <+102>:	add    eax,edx
+   0x0000000000400b86 <+104>:	mov    edi,eax
+   0x0000000000400b88 <+106>:	call   0x40094d <_Z3geni>
+   0x0000000000400b8d <+111>:	mov    QWORD PTR [rbp-0x8],rax
+   0x0000000000400b91 <+115>:	mov    edx,DWORD PTR [rbp-0xc]
+   0x0000000000400b94 <+118>:	mov    eax,DWORD PTR [rbp-0x10]
+   0x0000000000400b97 <+121>:	add    edx,eax
+   0x0000000000400b99 <+123>:	mov    eax,DWORD PTR [rbp-0x14]
+   0x0000000000400b9c <+126>:	add    eax,edx
+   0x0000000000400b9e <+128>:	cmp    eax,0x539
+   0x0000000000400ba3 <+133>:	jne    0x400bcc <main+174>
+   0x0000000000400ba5 <+135>:	mov    esi,0x400ce6
+   0x0000000000400baa <+140>:	mov    edi,0x6021a0
+   0x0000000000400baf <+145>:	call   0x400830 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+   0x0000000000400bb4 <+150>:	mov    rax,QWORD PTR [rbp-0x8]
+   0x0000000000400bb8 <+154>:	mov    rdi,rax
+   0x0000000000400bbb <+157>:	call   0x400ae3 <_Z9print_ptrPc>
+   0x0000000000400bc0 <+162>:	mov    edi,0x400cef
+   0x0000000000400bc5 <+167>:	call   0x4007c0 <puts@plt>
+   0x0000000000400bca <+172>:	jmp    0x400bdb <main+189>
+   0x0000000000400bcc <+174>:	mov    esi,0x400cf1
+   0x0000000000400bd1 <+179>:	mov    edi,0x6021a0
+   0x0000000000400bd6 <+184>:	call   0x400830 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+   0x0000000000400bdb <+189>:	mov    rax,QWORD PTR [rbp-0x8]
+   0x0000000000400bdf <+193>:	mov    rdi,rax
+   0x0000000000400be2 <+196>:	call   0x400840 <free@plt>
+   0x0000000000400be7 <+201>:	mov    eax,0x0
+   0x0000000000400bec <+206>:	leave  
+   0x0000000000400bed <+207>:	ret    
+End of assembler dump.
